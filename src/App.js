@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Menu from "./components/Menu"
+import Cards from "./components/Cards"
+
 class App extends Component {
   render() { 
     return (
@@ -8,7 +10,8 @@ class App extends Component {
           <p className="lead text-center">PrivadaSpace</p>
 
           <Menu/>
-        </div>
+         {/*<Cards/>*/}
+       </div>
       </div>
     );
   }
