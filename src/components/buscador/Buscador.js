@@ -1,3 +1,5 @@
+import React from 'react'
+
 export function Buscador(){
         return (
             <form>

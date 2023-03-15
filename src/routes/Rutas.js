@@ -14,6 +14,6 @@ export function Rutas() {
   return (
    <Routes>
     <Route path='/' element={loadLayouts(Layout, Home)}/>
-   </Routes> 
+   </Routes>
   )
 }

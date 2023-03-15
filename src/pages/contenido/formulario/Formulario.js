@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class Formulario extends Component {
-
-    render() { 
+export function Formulario() {
         return (
             <form>
   <fieldset>
@@ -111,6 +109,3 @@ class Formulario extends Component {
 </form>
         );
     }
-}
- 
-export default Formulario;

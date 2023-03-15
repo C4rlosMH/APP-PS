@@ -1,19 +1,12 @@
-import React, { Component } from 'react';
-import {Menu, Buscador, Cards} from './components'
+import React from 'react';
+import {BrowserRouter} from "react-router-dom";
+import {Rutas} from "./routes"
 
-class App extends Component {
-  render() { 
-    return (
-      <div className="App container">
-        <div className="jumbotron">
-          <p className="lead text-center">PrivadaSpace</p>
 
-          <Menu/>
-         {/*<Cards/>*/}
-       </div>|
-      </div>
-    );
-  }
+export default function AppAlumno() {
+  return (
+   <BrowserRouter>
+    <Rutas/>
+   </BrowserRouter>
+  )
 }
- 
-export default App;
