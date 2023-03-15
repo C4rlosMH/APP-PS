@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Menu from "./components/Menu"
-import Cards from "./components/Cards"
+import {Menu, Buscador, Cards} from './components'
 
 class App extends Component {
   render() { 
@@ -11,7 +10,7 @@ class App extends Component {
 
           <Menu/>
          {/*<Cards/>*/}
-       </div>
+       </div>|
       </div>
     );
   }
