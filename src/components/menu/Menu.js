@@ -36,10 +36,9 @@ export function Menu() {
             </div>
           </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-sm-2" type="search" placeholder="Buscar"/>
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
+        <div>
+          <button type="button" class="btn btn-dark disabled">Ingresar</button>
+        </div>
       </div>
     </div>
   </nav>
