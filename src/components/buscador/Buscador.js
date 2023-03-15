@@ -1,7 +1,4 @@
-import React, { Component } from 'react';
-
-class Buscardor extends Component {
-    render() { 
+export function Buscador(){
         return (
             <form>
                 <div className='row'>
@@ -14,6 +11,5 @@ class Buscardor extends Component {
             </form>
         );
     }
-}
  
-export default Buscardor;
+

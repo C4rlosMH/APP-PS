@@ -1,7 +1,4 @@
-import React, { Component } from 'react';
-
-class Cards extends Component {
-    render() { 
+export function Cards() {
         return (
             <><div class="card mb-3">
                 <h3 class="card-header">Card header</h3>
@@ -40,6 +37,3 @@ class Cards extends Component {
 
         );
     }
-}
- 
-export default Cards;
