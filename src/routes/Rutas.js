@@ -1,7 +1,7 @@
 import React from 'react'
 import {Routes,Route} from "react-router-dom";
 import {Layout} from "../layouts"
-import { Home, } from '../pages';
+import { Home, Singin, Palapas, Salones, Albercas} from '../pages';
 
 export function Rutas() {
     const loadLayouts=(Layout,Page)=>{
@@ -11,9 +11,13 @@ export function Rutas() {
             </Layout>
         )
     }
-  return (
-   <Routes>
+return (
+<Routes>
     <Route path='/' element={loadLayouts(Layout, Home)}/>
-   </Routes>
-  )
+    <Route path='/ingresa' element={loadLayouts(Layout, Singin)}/>
+    <Route path='/palapas' element={loadLayouts(Layout, Palapas)}/>
+    <Route path='/salones' element={loadLayouts(Layout, Salones)}/>
+    <Route path='/albercas' element={loadLayouts(Layout, Albercas)}/>
+</Routes>
+)
 }
